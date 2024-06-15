@@ -1,0 +1,21 @@
+﻿;;;;;;;JAC;SBM;RCP;NCB;MAD;MEV;AFG;PFP;AGF;IJC;VKC;ELJ;DMR;JPO;APL;GRB;DST;LSM;JSR;JSG;CVC
+;;;;%CE;;%RA;Javier Acedo Castrillón;Sara Bulpe Martínez;Rafael Cabrera Perejón;Natalia Cortés Bernal;Maurice Alejandro Darner;Manuel Escobar Vidal;Adrian Fernández Garrido;Pablo Fornell Periñán;Alejandro García Fernández;Ignacio Jiménez Cerpa;Victor Jiménez Corada;Erik López Jiménez;Debora Medina Rivero;Juan Perez Ortega;Alberto Piñero Labrador;Guillermo Rodríguez Benítez;Daniel Saborio Torres;Luis Salado Morán;Jose Alfonso Salazar Ramos;Juan José Sánchez González;Carlos Vela Chávez
+UD2;RA3;;3. Escribe y depura código, analizando y utilizando las estructuras de control del lenguaje. ;;;10,00%;
+;;;;;;;;;;;;;;;;;;;;;;;;;;;
+;UD2.a;;a) Se ha escrito y probado código que haga uso de estructuras de selección.;2,50%;25,00%;;
+;UD2.b;;b) Se han utilizado estructuras de repetición.;2,50%;25,00%;;
+;UD2.c;;c) Se han utilizado estructuras de repetición.;0,00%;0,00%;;
+;UD2.d;;d) Se han reconocido las posibilidades de las sentencias de salto.;0,50%;5,00%;;
+;UD2.e;;e) Se ha escrito código utilizando control de excepciones.;1,50%;15,00%;;
+;UD2.f;;f) Se han creado programas ejecutables utilizando diferentes estructuras de control.;1,00%;10,00%;;
+;UD2.g;;g) Se han probado y depurado los programas.;1,00%;10,00%;;
+;UD2.h;;h) Se ha comentado y documentado el código.;1,00%;10,00%;;
+;RA3;Instrumentos;;;;;;;;;;;;;;;;;;;;;;;;;
+;;;Tarea:P2.1 - Ejercicios Condicionales;;;;AP;AP;AP;AP;AP;AP;AP;AP;AP;AP;AP;AP;AP;AP;AP;PC;AP;AP;NPR;AP;AP
+;;;Tarea:P2.2 - Ejercicios Iterativas y saltos;;;;AP;AP;AP;AP;AP;AP;AP;AP;AP;AP;AP;AP;AP;AP;AP;AP;AP;AP;NPR;AP;AP
+;;;Tarea:P2.3 - Ejercicios Captura de excepciones;;;;AP;AP;AP;AP;AP;AP;AP;AP;AP;AP;AP;AP;AP;AP;AP;NPR;AP;AP;NPR;AP;AP
+;;;Tarea:P2.4 - Ejercicios Depuración;;;;AP;AP;AP;AP;AP;AP;AP;AP;AP;AP;AP;AP;AP;AP;AP;NPR;NPR;NPR;NPR;AP;AP
+;;;Tarea:P2.5 - Juego del ahorcado;;;;AP;AP;AP;AP;AP;AP;AP;AP;AP;AP;AP;AP;AP;AP;AP;AP;AP;AP;AP;AP;AP
+;d,f,g;;;;;100%;10;10;10;10;10;10;10;10;10;10;10;10;10;10;10;4;8;8;2;10;10
+;a,b,c,e,h;;Tarea:2223 (u1, u2): Prueba específica. Tabla Multiplicar;;;70%;6;6;7,93;6,41;7,17;0;0;7,1;7,17;6,41;7,24;6;3,31;3,93;5,17;3,45;6,34;6,28;0;5,03;8,07
+;a,b,c,e,h;;Cuestionario:2223 (u1, u2): Elementos y estructuras de un lenguaje.;;;30%;6,94;6,94;3,33;1,39;6,67;0;0;5,83;6,67;4,44;3,33;3,33;3,89;4,44;6,11;3,89;4,44;3,61;0;3,33;4,44

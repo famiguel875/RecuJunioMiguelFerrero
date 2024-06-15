@@ -1,0 +1,20 @@
+﻿;;;;;;;JAC;SBM;RCP;NCB;MAD;MEV;AFG;PFP;AGF;IJC;VKC;ELJ;DMR;JPO;APL;GRB;DST;LSM;JSR;JSG;CVC
+;;;;%CE;;%RA;Javier Acedo Castrillón;Sara Bulpe Martínez;Rafael Cabrera Perejón;Natalia Cortés Bernal;Maurice Alejandro Darner;Manuel Escobar Vidal;Adrian Fernández Garrido;Pablo Fornell Periñán;Alejandro García Fernández;Ignacio Jiménez Cerpa;Victor Jiménez Corada;Erik López Jiménez;Debora Medina Rivero;Juan Perez Ortega;Alberto Piñero Labrador;Guillermo Rodríguez Benítez;Daniel Saborio Torres;Luis Salado Morán;Jose Alfonso Salazar Ramos;Juan José Sánchez González;Carlos Vela Chávez
+UD1;RA7;;1. Reconoce la estructura de un programa informático, identificando y relacionando los elementos propios del lenguaje de programación utilizado.;;;5,00%;
+;;;;;;;;;;;;;;;;;;;;;;;;;;;
+;UD1.a;;a) Se han identificado los bloques que componen la estructura de un programa informático.;0,30%;5,00%;;
+;UD1.b;;b) Se han creado proyectos de desarrollo de aplicaciones.;0,80%;15,00%;;
+;UD1.c;;c) Se han utilizado entornos integrados de desarrollo.;0,30%;5,00%;;
+;UD1.d;;d) Se han identificado los distintos tipos de variables y la utilidad específica de cada uno.;0,30%;5,00%;;
+;UD1.e;;e) Se ha modificado el código de un programa para crear y utilizar variables.;0,30%;5,00%;;
+;UD1.f;;f) Se han creado y utilizado constantes y literales.;0,30%;5,00%;;
+;UD1.g;;g) Se han clasificado, reconocido y utilizado en expresiones los operadores del lenguaje.;1,80%;35,00%;;
+;UD1.h;;h) Se ha comprobado el funcionamiento de las conversiones de tipos explícitas e implícitas.;1,00%;20,00%;;
+;UD1.i;;i) Se han introducido comentarios en el código.;0,30%;5,00%;;
+;RA1;Instrumentos;;;;;;;;;;;;;;;;;;;;;;;;;
+;;;Tarea:P1.0 - Algoritmo (RA1.a);;;;AP;AP;AP;AP;AP;NPR;AP;AP;AP;AP;NPR;AP;AP;AP;AP;NPR;AP;AP;NPR;AP;AP
+;;;Tarea:P1.1 - Python y Visual Code;;;;AP;AP;AP;AP;AP;AP;AP;AP;AP;AP;AP;AP;AP;AP;AP;NPR;AP;NPR;NPR;AP;AP
+;;;Tarea:P1.2 - Ejercicios bÃ¡sicos;;;;AP;AP;AP;AP;AP;AP;AP;AP;AP;AP;AP;AP;AP;AP;NPR;NPR;AP;AP;NPR;AP;AP
+;a,b,c,f;1+2+3;;;;100%;10;10;10;10;10;6,666666667;10;10;10;10;6,666666667;10;10;10;6,666666667;0;10;6,666666667;0;10;10
+;d,e,g,h,i;4;Tarea:2223 (u1, u2): Prueba especifica. Tabla Multiplicar;;;70%;6;6;7,93;6,41;7,17;0;0;7,1;7,17;6,41;7,24;6;3,31;3,93;5,17;3,45;6,34;6,28;0;5,03;8,07
+;d,e,g,h,i;5;Cuestionario:2223 (u1, u2): Elementos y estructuras de un lenguaje.;;;30%;6,94;6,94;3,33;1,39;6,67;0;0;5,83;6,67;4,44;3,33;3,33;3,89;4,44;6,11;3,89;4,44;3,61;0;3,33;4,44
