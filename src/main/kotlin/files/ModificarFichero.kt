@@ -18,7 +18,7 @@ class ModificarFichero {
         val archivo = File(ruta)
         val contenidoOriginal = archivo.readLines().toMutableList()
 
-        // Actualizar las notas de los criterios de evaluación
+        /** Actualizar las notas de los criterios de evaluación */
         criterios.forEach { criterio ->
             val lineaCEIndex = encontrarLineaCriterioEvaluacion(contenidoOriginal, criterio)
             if (lineaCEIndex != -1) {
@@ -28,7 +28,7 @@ class ModificarFichero {
             }
         }
 
-        // Actualizar las notas de los resultados de aprendizaje
+        /** Actualizar las notas de los resultados de aprendizaje */
         resultados.forEach { resultado ->
             val lineaRAIndex = encontrarLineaResultadoAprendizaje(contenidoOriginal)
             if (lineaRAIndex != -1) {
@@ -38,13 +38,12 @@ class ModificarFichero {
             }
         }
 
-        // Escribir las líneas actualizadas al archivo
+        /** Escribir las líneas actualizadas al archivo */
         archivo.writeText(contenidoOriginal.joinToString("\n"))
     }
 
     /**
      * Encuentra la línea correspondiente al criterio de evaluación en el contenido del archivo.
-     * Retorna el índice de la línea o -1 si no se encuentra.
      */
     private fun encontrarLineaCriterioEvaluacion(
         contenido: MutableList<String>,
@@ -56,7 +55,6 @@ class ModificarFichero {
 
     /**
      * Encuentra la línea correspondiente al resultado de aprendizaje en el contenido del archivo.
-     * Retorna el índice de la línea o -1 si no se encuentra.
      */
     private fun encontrarLineaResultadoAprendizaje(
         contenido: MutableList<String>
