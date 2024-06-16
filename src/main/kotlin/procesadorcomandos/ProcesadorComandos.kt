@@ -89,7 +89,7 @@ class ProcesadorComandos(private val args: Array<String>) {
 
         // Actualizar las notas de los resultados de aprendizaje
         resultados.forEach { resultado ->
-            val lineaRAIndex = encontrarLineaResultadoAprendizaje(contenidoOriginal, resultado)
+            val lineaRAIndex = encontrarLineaResultadoAprendizaje(contenidoOriginal)
             if (lineaRAIndex != -1) {
                 val partes = contenidoOriginal[lineaRAIndex].split(";").toMutableList()
                 actualizarNotas(partes, notasRA)
@@ -118,22 +118,22 @@ class ProcesadorComandos(private val args: Array<String>) {
      * Retorna el índice de la línea o -1 si no se encuentra.
      */
     private fun encontrarLineaResultadoAprendizaje(
-        contenido: MutableList<String>,
-        resultado: ResultadoAprendizaje
+        contenido: MutableList<String>
     ): Int {
         val unidad = obtenerUnidad(contenido)
-        return contenido.indexOfFirst { it.startsWith("UD${unidad.idUnidad}.${resultado.idRA};") }
+        return contenido.indexOfFirst { it.startsWith("UD${unidad.idUnidad}") }
     }
 
     /**
      * Actualiza las notas en las partes de la línea según las notas proporcionadas.
      */
     private fun actualizarNotas(partes: MutableList<String>, notas: List<Double>?) {
-        notas?.let { notas ->
-            for (i in 7 until partes.size) {
-                val notasIndex = i - 7
-                if (notasIndex < notas.size) {
-                    partes[i] = notas[notasIndex].toString()
+        notas?.let {
+            for (i in it.indices) {
+                if (7 + i < partes.size) {
+                    partes[7 + i] = it[i].toString()
+                } else {
+                    partes.add(it[i].toString())
                 }
             }
         }
